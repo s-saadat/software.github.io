@@ -1,0 +1,4 @@
+wellcome
+homegroup
+recycle bin
+local disk
