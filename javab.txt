@@ -1,0 +1,43 @@
+A:
+ÏÑ æÖÚíÊ Çæá íÛÇã untracked file ÏÇÏå æ İÇíá åäæÒ Èå íÊ ÇÖÇİå äÔÏå ÇÓÊ.
+ÏÑ ãÑÍáå ÈÚÏ ÈÇ ÒÏä ÏÓÊæÑ add æ ÇÌÑÇí ÏÓÊæÑ status İÇíá ÇÖÇİå ÔÏå æ äÇã Âä ÓÈÒÑä ãíÔæÏ.
+ÏÑ ãÑÍáå ÈÚÏ ÈÇ ÇÌÑÇí ÏÓÊæÑ git commit æ ÏÓÊæÑ status ãæŞÚíÊ Âä ÑÇ Ñæí ÈÑä master äÔÇä ÏÇÏå æ İÇíá ÏíÑí ÈÑÇí commit æÌæÏ äÏÇÑÏ.
+B:
+Èå ÇÒÇí åÑ ˜ÇãíÊ 3 ÎØ ÎÑæÌí ÏÇÑÏ.İÇíá åÇíí ˜ ÇÖÇİå ÔÏå åãÑÇå ÈÇ ÊÇÑíÎ ¡ÑæÒ ¡˜Ï ˜ÇãíÊ æ Ç˜ÊæÑ ÑÇ äãÇíÔ ãí ÏåÏ.
+C:
+ÈÇ ÒÏä ÏÓÊæÑ git commit –amend í˜ ÇÏíÊæÑ ÈÇÒ ãíÔæÏ ˜å ÈÇíÏ íÇã ãæÑÏäÙÑ ÑÇ äæÔÊå æ ÓÓ Ï˜ãå Escæ ÈÚÏ :wqæ ÇíäÊÑ íÇã Èå ÚäæÇä ÇÎÑíä ˜ÇãíÊ äÔÇä ÏÇÏå ãíÔæÏ
+D:
+ÈÇ ÇÓÊİÇÏå ÇÒ ÏÓÊæÑ git log   ãíÊæÇäíã ÈÈíäíã ˜å ÏÑ åÑ ˜ÇãíÊ å İÇíá åÇíí ÊÛííÑ ˜ÑÏå 
+E1:
+ÈÇ ÇÓÊİÇÏå ÇÒ ÏÓÊæÑ git checkout head~2 test2.txt
+E2 :
+ÈÇ ÏÓÊæÑ GIT checkout head test2.txt 
+F:
+ ÈÇ ÏÓÊæÑ git reset –hard
+G:
+ÈÇ ÏÓÊæÑ git reset head~2 –hardæ ÈÇ ÇÌÑÇí ÏÓÊæÑ git log ãí Èíäíã ÊãÇã ˜ÇãíÊ åÇí ÈÚÏ ÇÒ  Ïæ ˜ÇãíÊ ÈÚÏí Ç˜ ÔÏå 
+H:
+ÈÇ ÇÓÊİÇÏå ÇÒ ÏÓÊæÑ   <ÂíÏí ˜ÇãíÊí ˜å ãíÎæÇåíã Èå Âä ÈÑÑÏíã>git reset ¡ÏÓÊæÑ git add .¡æ ÏÓÊæÑ git commit  .˜å ÈÇ Çíä ÏÓÊæÑ İÇíá sec.txt  æ test2.txt  ÍĞİ ãíÔæÏ.
+I:
+ÈÇ ÇÓÊİÇÏå ÇÒ ÏÓÊæÑ git branch
+J:
+already up to date 
+İÇíá test2  ÊÛííÑ ˜ÑÏå æ İÇíá test3  ÈÇíÏ add  ÔæÏ.
+ÈÇ ÏÓÊæÑ git merge exam 
+K:
+ÎØÇí Çíä˜å äãí ÊæÇäíã ãÓÊÑ ÑÇ ÈÇ ÂÈÇä ÑíÈíÓ ˜äíã æ ÈÇíÏ ÈÑíã Ñæí ãÓÊÑ ÏæÈÇÑå Çíä ÏÓÊæÑ ÑÇ ÇÌÑÇ ˜äíã
+L:
+ÈÇ Ïæ ÏÓÊæÑ:
+                ÇÏÑÓ ÑíæÒíÊæÑígit remote add origin 
+Git push –u master
+M:
+İÇíáí ˜å ÏÑ æÔå ŞÈáí ÇíÌÇÏ ˜ÑÏíã È Çíä æÔå åã ÇÖÇİå ãíÔæÏ 
+From https://github.com/s-saadat/software.github.io
+ * branch            HEAD       -> FETCH_HEAD
+Updating 77c4199..df4a2c5
+Fast-forward
+ test7.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test7.txt
+
+software.github.io/s-saadat
